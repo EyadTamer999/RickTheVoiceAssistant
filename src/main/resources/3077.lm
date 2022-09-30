@@ -1,0 +1,52 @@
+Language model created by QuickLM on Fri Sep 30 12:47:26 EDT 2022
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 3 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=11
+ngram 3=8
+
+\1-grams:
+-0.9700 </s> -0.3010
+-0.9700 <s> -0.2518
+-1.4472 IS -0.2852
+-1.4472 RICK -0.2852
+-1.4472 ROLL -0.2518
+-1.4472 SHUFFLE -0.2852
+-1.4472 SPOTIFY -0.2518
+-1.4472 THE -0.2852
+-1.4472 TIME? -0.2518
+-1.4472 WHAT -0.2852
+
+\2-grams:
+-0.7782 <s> RICK 0.0000
+-0.7782 <s> SHUFFLE 0.0000
+-0.7782 <s> WHAT 0.0000
+-0.3010 IS THE 0.0000
+-0.3010 RICK ROLL 0.0000
+-0.3010 ROLL </s> -0.3010
+-0.3010 SHUFFLE SPOTIFY 0.0000
+-0.3010 SPOTIFY </s> -0.3010
+-0.3010 THE TIME? 0.0000
+-0.3010 TIME? </s> -0.3010
+-0.3010 WHAT IS 0.0000
+
+\3-grams:
+-0.3010 <s> RICK ROLL
+-0.3010 <s> SHUFFLE SPOTIFY
+-0.3010 <s> WHAT IS
+-0.3010 IS THE TIME?
+-0.3010 RICK ROLL </s>
+-0.3010 SHUFFLE SPOTIFY </s>
+-0.3010 THE TIME? </s>
+-0.3010 WHAT IS THE
+
+\end\
