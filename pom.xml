@@ -3,7 +3,11 @@
   <groupId>com.TimeTellerVoiceAssistantProject</groupId>
   <artifactId>TimeTellerVoiceAssistantMaven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	<dependencies>
   		<dependency>
 			<groupId>de.sciss</groupId>
 			<artifactId>sphinx4-data</artifactId>
